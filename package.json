@@ -1,0 +1,16 @@
+{
+  "name": "RequireEnsureTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vincent Bailly <vibailly@microsoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build1 && yarn build2",
+    "build1": "webpack --config webpack1.config.js",
+    "build2": "webpack  --config webpack2.config.js"
+  },
+  "dependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  }
+}
